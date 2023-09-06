@@ -10,7 +10,7 @@ if "generated" not in st.session_state:
 if "past" not in st.session_state:
     st.session_state.past = []
 with st.form("質問する"):
-    user_message = st.text_area("質問を入力してください")
+    user_message = st.text_area("AirCodeについての質問を入力してください")
     submitted = st.form_submit_button("質問する")
     if submitted:
         # Define the API endpoint URL
