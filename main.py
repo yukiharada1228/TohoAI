@@ -2,8 +2,6 @@ import os
 import requests
 import streamlit as st
 from streamlit_chat import message
-from dotenv import load_dotenv
-load_dotenv()
 
 
 st.title("TOHO AI")
